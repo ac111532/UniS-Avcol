@@ -1,5 +1,13 @@
 body{margin:0px;}
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 #header{
     display: flex;
     align-items: center;
@@ -134,7 +142,7 @@ section:not(#header) {
   color: #088178;
 }
 
-#product1 .pro .cart{
+.material-symbols-outlined .cart{
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -146,4 +154,48 @@ section:not(#header) {
   position: absolute;
   bottom: 20px;
   right: 10px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo{
+  font-size: 30px;
+}
+
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer .follow{
+  margin-top: 20px;
+}
+
+footer .follow i{
+  color: grey;
+  padding-right: 4px;
+  cursor: pointer;
 }
