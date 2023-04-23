@@ -1,0 +1,93 @@
+    <footer class="section-p1">
+      <div class="col">
+        <image src="Avcol.png" alt=""></image>
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>51 Victor Street, Avondale, Auckland, New Zealand</p>
+        <p><strong>Hours: </strong>8am-1.30pm Mon-Fri</p>
+        <p><strong>Email: </strong>znel@avcol.school.nz</p>
+      </div>
+      <div class="follow col">
+        <div class="icon">
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-youtube"></i>
+        </div>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <p>Secured Payment</p>
+        <img src="pay.png" alt="pay icons">
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>© 2023 Ethan Blanch</p>
+    </div>  
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      footer .col{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+      
+      footer .logo{
+        font-size: 30px;
+      }
+      
+      footer h4{
+        font-size: 14px;
+        padding-bottom: 20px;
+      }
+      
+      footer p{
+        font-size: 13px;
+        margin: 0 0 8px 0;
+      }
+      
+      footer a{
+        font-size: 13px;
+        text-decoration: none;
+        color: #222;
+        margin-bottom: 10px;
+      }
+      
+      footer .follow{
+        margin-top: 20px;
+      }
+      
+      footer .follow i{
+        color: grey;
+        padding-right: 4px;
+        cursor: pointer;
+      }
+      
+      footer .install .row img {
+        border: 1px solid #088178;
+        border-radius: 6px;
+      }
+      
+      footer .install img {
+        margin: 10px 0 15px 0;
+      }
+      
+      footer .follow i:hover,
+      footer a:hover {
+        color: #088178;
+      }
+      
+      footer .copyright{
+        width: 100%;
+        text-align: center;
+      }
